@@ -1,14 +1,12 @@
 .Header {
     display: flex;
     align-items: center;
-    border-color: 1px solid rgb(226, 226, 226);
+    border-bottom: 1px solid rgb(226, 226, 226); /* border-color를 border로 수정 */
     padding: 20px 0px;
-
 }
 
 .Header > div {
     display: flex;
-
 }
 
 .Header .header_center {
@@ -17,12 +15,12 @@
     justify-content: center;
 }
 
-.Header .header_left { 
+.Header .header_left {
     width: 25%;
     justify-content: flex-start;
 }
+
 .Header .header_right {
     width: 25%;
     justify-content: flex-end;
-
 }
